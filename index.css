@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h1{
+    padding: 4rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+.aqua{
+    font-weight: 900;
+    color: aqua;
+    text-shadow: 0 0 0px #fff, 0 0 50px aqua;
+} 
+input:active{
+        transform: scale(.90);
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2F6FD;
+    flex-direction: column;
+}
+.container .calculator{
+    background-color: #394753;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0px #fff, 0 0 25px  aqua;
+}
+.calculator  input{
+    background-color: #394753;
+    border: 0px;
+    outline: 0px;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+}
+.display-section{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    flex-direction: column;
+}
+form .display-section input{
+    text-align: right;
+    flex: 1;
+    font-size: 60px;
+    box-shadow: none;
+    display: flex;
+    width: 280px;
+
+}
+form .display-section input.input_display{
+    font-size: 30px;
+    color: aqua;
+}
+
+.calculator form input.operator{
+    color: aqua;
+}
